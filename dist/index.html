@@ -7,5 +7,51 @@
     <title>Document</title>
     <script src="/index.5baa4167.js" defer=""></script>
   </head>
-  <body></body>
+  <style>span {
+  cursor: pointer;
+  background-color: red;
+  padding: 4px;
+  display: inline-block;
+}
+
+</style>
+  <body>
+    <form action="" id="registration_form">
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email"><br>
+      <label for="nickname">Nickname</label>
+      <input type="text" name="nickname" id="nickname"><br>
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password"><br>
+      <button type="submit">註冊</button>
+    </form>
+    <hr>
+    <form action="" id="loginForm">
+      <label for="login_email">Email</label>
+      <input type="email" name="email" id="login_email"><br>
+
+      <label for="login_password">Password</label>
+      <input type="password" name="password" id="login_password"><br>
+      <button type="submit">登入</button><br>
+      <span class="loginSuccess" style="color: red">未登入</span><br><br>
+      <!-- <label for="token">Token</label><br />
+      <textarea name="token" id="token" cols="30" rows="10"></textarea> -->
+    </form>
+    <hr>
+    <form id="checkform">
+      <button id="checkbtn">檢查登入</button>
+      <span id="result"></span>
+    </form>
+    <hr>
+    <form id="logoutForm">
+      <button id="logoutbtn">登出</button>
+      <span id="result"></span>
+    </form>
+    <hr>
+    <form id="todoForm">
+      <input type="text" id="todo">
+      <button>新增</button>
+      <ul id="todos"></ul>
+    </form>
+  </body>
 </html>

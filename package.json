@@ -7,6 +7,10 @@
     "dev": "parcel index.html"
   },
   "devDependencies": {
-    "parcel": "^2.4.0"
+    "parcel": "^2.4.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "axios": "^0.26.1"
   }
 }
