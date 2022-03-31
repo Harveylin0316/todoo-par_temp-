@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "run": "parcel index.html"
+    "dev": "parcel index.html"
   },
   "devDependencies": {
     "parcel": "^2.4.0"
